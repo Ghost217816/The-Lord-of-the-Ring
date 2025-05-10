@@ -1,54 +1,107 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Uncial Antiqua", cursive;
-  background: url("https://wallpaper.forfun.com/fetch/09/09d0c50529ab7a12743c8a413b93db67.jpeg")
-    no-repeat center center fixed;
-  background-size: cover;
-  color: #b3f490;
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Uncial Antiqua', cursive;
+      background: url('https://wallpaper.forfun.com/fetch/09/09d0c50529ab7a12743c8a413b93db67.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #b3f490;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2px;
+      text-align: center;
+      font-size: 25px;
+      border-bottom: 2px solid #77b560;
+    }
+
+    div {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 25px;
+    }
+
+    div a {
+            color: #b3f490;
+      margin: 0 10px;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      
+  background: #2a7900;
+  border: 2px solid #b3f490;
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px #b3f490;
+  transition: all 0.3s ease;
+      
+      
+    }
+
+    div a:hover {
+      border-color: #b3f490;
+    }
+
+    main {
+      max-width: 800px;
+    
+      margin: 2rem auto;
+      background: url('https://kartinki.pics/uploads/posts/2021-07/thumbs/1626151167_36-kartinkin-com-p-papirus-fon-krasivo-40.jpg');
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      color: black;
+      font-weight: bold;
+      transition: all 0.4s ease;
+      
+
+      
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-top: 1px solid #77b560;
+      margin-top: 2rem;
+    }
+    
+    
+    
+           .music{
+    position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 40px;
+      transition: all 0.3s ease;
+      z-index: 9999;
+
+      }
+      .music:hover{
+  box-shadow: 0 0 20px #ff9011, 0 0 40px #ff6200;
+  transform: scale(1.10);
+  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+  
+  
+      }
+      
+      a:hover {
+  background: #8ce65b;
+  box-shadow: 0 0 20px #64ff11, 0 0 40px #2d8200;
+  transform: scale(1.10);
+  border-radius: 40px;
+  color: #1f5800;
 }
 
-header {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 2px;
-  text-align: center;
-  font-size: 25px;
-  border-bottom: 2px solid #77b560;
+
+p{
+  font-size: 20px;
 }
 
-div {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-}
-
-div a {
-  color: #b3f490;
-  margin: 0 10px;
-  text-decoration: none;
-  font-size: 21px;
-  border-bottom: 1px solid transparent;
-}
-
-div a:hover {
-  border-color: #b3f490;
-}
-
-main {
-  max-width: 800px;
-  margin: 2rem auto;
-  background: url("https://kartinki.pics/uploads/posts/2021-07/thumbs/1626151167_36-kartinkin-com-p-papirus-fon-krasivo-40.jpg");
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  color: black;
-  font-weight: bold;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid #77b560;
-  margin-top: 2rem;
-}
