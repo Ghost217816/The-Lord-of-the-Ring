@@ -1,33 +1,32 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Uncial Antiqua", cursive;
-  background: url("https://wallpaper.forfun.com/fetch/09/09d0c50529ab7a12743c8a413b93db67.jpeg")
-    no-repeat center center fixed;
-  background-size: cover;
-  color: #b3f490;
-  transition: background-image 0.3s ease;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Uncial Antiqua', cursive;
+      background: url('https://wallpaper.forfun.com/fetch/09/09d0c50529ab7a12743c8a413b93db67.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #b3f490;
+      transition: background-image 0.3s ease;
+    }
 
-header {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 2px;
-  text-align: center;
-  font-size: 25px;
-  border-bottom: 2px solid #77b560;
-}
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2px;
+      text-align: center;
+      font-size: 25px;
+      border-bottom: 2px solid #77b560;
+    }
 
-.menu {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-}
-.menu a {
-  color: #b3f490;
-  margin: 0 10px;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-
+    .menu {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+    .menu a {
+           color: #b3f490;
+      margin: 0 10px;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      
   background: #2a7900;
   border: 2px solid #b3f490;
   border-radius: 10px;
@@ -36,73 +35,154 @@ header {
   letter-spacing: 1px;
   box-shadow: 0 0 10px #b3f490;
   transition: all 0.3s ease;
-}
+      
+      
+    }
 
-.menu a:hover {
-  border-color: #b3f490;
-  background: #8ce65b;
-  box-shadow: 0 0 20px #64ff11, 0 0 40px #2d8200;
-  transform: scale(1.1);
-  border-radius: 40px;
-  color: #1f5800;
-}
+    .menu a:hover {
+      border-color: #b3f490; 
+      background: #8ce65b;
+      box-shadow: 0 0 20px #64ff11, 0 0 40px #2d8200;
+      transform: scale(1.10);
+      border-radius: 40px;
+      color: #1f5800;
+    }
 
-/* Стилі картинок */
-.wrapper {
-  display: flex;
-
-  gap: 20px;
-  padding: 25px;
-  background-color: #f4f4f4;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin: 15px;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: center;
-}
-
-.image {
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-position: center;
-  border: 2px solid #ccc;
-  cursor: pointer;
-  background-color: black;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-align: center;
-  font-family: sans-serif;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.image:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
 
 body:has(.image1:hover) {
-  background-image: url("https://i.postimg.cc/nhbsSvVh/Chat-GPT-Image-2-2025-21-08-58.png");
+  background-image: url('https://i.postimg.cc/nhbsSvVh/Chat-GPT-Image-2-2025-21-08-58.png');
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
 }
 
 body:has(.image2:hover) {
-  background-image: url("https://i.postimg.cc/tRstLNb3/Chat-GPT-Image-2-2025-21-12-34.png");
+  background-image: url('https://i.postimg.cc/tRstLNb3/Chat-GPT-Image-2-2025-21-12-34.png');
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
 }
 
 body:has(.image3:hover) {
-  background-image: url("https://i.postimg.cc/fbgSK1J6/Chat-GPT-Image-2-2025-21-23-33.png");
+  background-image: url('https://i.postimg.cc/fbgSK1J6/Chat-GPT-Image-2-2025-21-23-33.png');
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
 }
 
-.wrapper img {
-  width: 100%;
+body:has(.image4:hover) {
+  background-image: url('https://i.postimg.cc/90nLhxQF/Chat-GPT-Image-10-2025-18-22-08.png');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease;
 }
+
+body:has(.image5:hover) {
+  background-image: url('https://i.postimg.cc/Ls3vX48W/Chat-GPT-Image-10-2025-18-25-58.png');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+
+body:has(.image6:hover) {
+  background-image: url('https://i.postimg.cc/1zw2KZ50/Chat-GPT-Image-10-2025-18-29-29.png');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+
+
+
+
+.person{
+    position: relative;
+      overflow: hidden;
+      height: 400px;       /* Висота, яку хочеш залишити */
+  overflow: hidden; 
+  margin-top: 50px;
+  }
+
+
+.hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+width: 400px;
+height: 400px;
+ margin: 20px;
+ padding: 4px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s ease; /* Плавний перехід для появи тексту */
+}
+
+.person:hover .img {
+  opacity: 0; /* фотка зникає при наведенні */
+}
+
+.person:hover .hidden {
+  opacity: 1; /* Інформація з'являється  */
+}
+
+.img{
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px;
+
+      object-fit: cover;
+  transition: opacity 0.3s ease; 
+  
+}
+.persons{
+    border-radius: 20px;
+    background: rgb(0,0,0, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    font-size: 19px;
+    margin-bottom: 90px;
+}
+    h2{
+      text-align: center;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-top: 3px solid #b3f490;
+      margin-top: 2rem;
+      border-radius: 40px;
+    }
+    
+    
+      .music{
+    position: fixed;
+      top: 0;
+      right: 0;
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+      margin-top: 20px;
+      border-radius: 40px;
+      transition: all 0.3s ease;
+            z-index: 9999;
+
+      }
+      .music:hover{
+  box-shadow: 0 0 20px #ff9011, 0 0 40px #ff6200;
+  transform: scale(1.10);
+  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+  
+      }
+  
+    
+    
+    
