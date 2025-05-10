@@ -1,82 +1,185 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&display=swap");
-body {
-  background-color: #0d3600;
+
+
+body{
+  background: linear-gradient(90deg,rgba(0, 51, 46, 1) 0%, rgba(0, 107, 46, 1) 48%, rgba(0, 41, 41, 1) 100%);
   color: white;
-  font-family: "Kurale", serif;
+font-family: "Kurale", serif;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  font-size: 20px;
 }
 
-@media (max-width: 600px) {
-  body {
+
+@media (max-width: 600px){
+  body{
     font-size: 16px;
+  
   }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
-  body {
+@media (min-width: 600px ) and (max-width: 900px){
+  body{
     font-size: 16px;
+ 
   }
+  
+  
 }
 
-h1,
-h2 {
+h1, h2{
   color: white;
   text-align: center;
   font-family: "Great Vibes", cursive;
+
 }
 
-header {
-  padding: 300px 40px;
+header{
+
+  padding: 300px 40px ;
 }
 
-header p {
+header p{
   text-align: center;
 }
 
-main {
+main{
+
   max-width: 900px;
   margin: 0 auto;
 }
 
-nav {
+nav{
   text-align: center;
 }
 
-nav a {
+nav a{
   color: yellow;
   text-decoration: none;
 }
 
-.scene {
-  background: url(https://i.postimg.cc/X7MSwjFW/41c89208-8376-4c6c-aa86-6a857c91f293.png)
-    no-repeat center center / cover;
+
+.scene{
+      background: url(https://i.postimg.cc/5y9F3vLB/80b13b75-570e-43d5-b471-1b1458a3505b.png) no-repeat center center / cover;
   min-height: 100vh;
   padding: 20px 10%;
+    
 }
 
-#scene2a {
-  background: url(https://i.postimg.cc/YStHQzhQ/Flux-Dev-Create-a-fantasystyle-image-featuring-a-mystical-fore-3.jpg)
-    no-repeat center center / cover;
+.btn{
+      background-color: #6a4e1f; 
+    border: 2px solid #d4af37; 
+    color: #fff; 
+    padding: 16px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 18px; 
+    font-family: 'Cinzel', serif; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    position: relative;
+    overflow: hidden; 
+    transition: all 0.5s ease-in-out; 
+    margin: 14px;
 }
 
-#scene2b {
-  background: url(https://i.postimg.cc/Y0MnsdBx/image.jpg) no-repeat center
-    center / cover;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
+.btn::before {
+    content: ''; 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 215, 0, 0.8));
+    transform: scaleX(0); 
+    transform-origin: top left;
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
 }
 
+/* Анімація підсвічування */
+.btn:hover {
+    background-color: #4b3c1e; /* темніший відтінок */
+    color: #ffdf00; /* золотий текст */
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6); /* золотисте сяйво */
+}
+
+/* Коли курсор на кнопці - ефект блиску */
+.btn:hover::before {
+    transform: scaleX(1); 
+}
+
+/* Ефект при натисканні */
+.btn:active {
+    transform: scale(0.95); /* зменшення кнопки */
+    box-shadow: 0 0 40px rgba(255, 215, 0, 0.8); /* сильне сяйво при натисканні */
+}
+
+/* Анімація пульсації */
 .btn {
-  display: inline-block;
-  color: white;
-  width: 40%;
-  text-decoration: none;
-  background: #1a8000;
-  background-color: #336c3b;
-  background-image: url("");
-  padding: 10px;
-  border-radius: 10px;
+    animation: pulse 2s infinite ease-in-out;
 }
+
+/* Пульсуюча анімація */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+}
+
+
+.btn:hover span {
+    color: #ffdf00;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.8);
+}
+
+.btn span {
+    position: relative;
+    z-index: 2;
+}
+
+p{
+  margin-top:180px;
+        background-color: #6a4e1f; 
+    border: 2px solid #d4af37; 
+    color: #fff; 
+    padding: 16px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 23px; 
+    font-family: 'Cinzel', serif; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    position: relative;
+    overflow: hidden; 
+    transition: all 0.5s ease-in-out; 
+}
+
+.music{
+    position: fixed;
+      top: 0;
+      right: 0;
+      width: 70px;
+      height: 70px;
+      margin-right: 20px;
+      margin-top: 20px;
+      border-radius: 40px;
+      transition: all 0.3s ease;
+
+      }
+      .music:hover{
+  box-shadow: 0 0 20px #ff9011, 0 0 40px #ff6200;
+  transform: scale(1.10);
+  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+  
+      }
