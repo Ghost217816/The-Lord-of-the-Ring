@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&display=swap");
+body {
+  background-color: #0d3600;
+  color: white;
+  font-family: "Kurale", serif;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+}
+
+header {
+  padding: 300px 40px;
+}
+
+header p {
+  text-align: center;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.scene {
+  background: url(https://i.postimg.cc/X7MSwjFW/41c89208-8376-4c6c-aa86-6a857c91f293.png)
+    no-repeat center center / cover;
+  min-height: 100vh;
+  padding: 20px 10%;
+}
+
+#scene2a {
+  background: url(https://i.postimg.cc/YStHQzhQ/Flux-Dev-Create-a-fantasystyle-image-featuring-a-mystical-fore-3.jpg)
+    no-repeat center center / cover;
+}
+
+#scene2b {
+  background: url(https://i.postimg.cc/Y0MnsdBx/image.jpg) no-repeat center
+    center / cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  width: 40%;
+  text-decoration: none;
+  background: #1a8000;
+  background-color: #336c3b;
+  background-image: url("");
+  padding: 10px;
+  border-radius: 10px;
+}

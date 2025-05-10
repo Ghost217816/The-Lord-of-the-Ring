@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Uncial Antiqua", cursive;
+  background: url("https://wallpaper.forfun.com/fetch/09/09d0c50529ab7a12743c8a413b93db67.jpeg")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #b3f490;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2px;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 2px solid #77b560;
+}
+
+div {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+div a {
+  color: #b3f490;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 21px;
+  border-bottom: 1px solid transparent;
+}
+
+div a:hover {
+  border-color: #b3f490;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: url("https://kartinki.pics/uploads/posts/2021-07/thumbs/1626151167_36-kartinkin-com-p-papirus-fon-krasivo-40.jpg");
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #77b560;
+  margin-top: 2rem;
+}
