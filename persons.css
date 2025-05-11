@@ -185,6 +185,16 @@ height: 400px;
   height: 170px;
   
       }
+
+      .sluth{
+     position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 110px;
+      height: 60px;
+      z-index: 9999;
+      margin: 10px;
+      }
   
     
     
