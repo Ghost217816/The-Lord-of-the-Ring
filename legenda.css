@@ -27,6 +27,7 @@
       text-decoration: none;
       border-bottom: 1px solid transparent;
       
+      
   background: #2a7900;
   border: 2px solid #b3f490;
   border-radius: 10px;
@@ -104,4 +105,14 @@
 p{
   font-size: 20px;
 }
+
+      .sluth{
+     position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 110px;
+      height: 60px;
+      z-index: 9999;
+      margin: 10px;
+      }
 
