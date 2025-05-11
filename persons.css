@@ -97,7 +97,7 @@ body:has(.image6:hover) {
 .person{
     position: relative;
       overflow: hidden;
-      height: 400px;       /* Висота, яку хочеш залишити */
+      height: 400px;     
   overflow: hidden; 
   margin-top: 50px;
   }
