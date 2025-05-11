@@ -100,6 +100,14 @@ p {
   font-size: 20px;
 }
 
+.sluth{
+     position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 90px;
+      height: 60px;
+}
+
 /*https://jsfiddle.net/23hutjw7/
 https://jsfiddle.net/krad1w4o/1/
 https://jsfiddle.net/kg8hc3nL/1/
